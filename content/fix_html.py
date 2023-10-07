@@ -6,6 +6,7 @@ from itertools import chain
 # Usage: python3 fix_html.py path/to/input.html
 
 GLOBAL_REPLACES = {
+        "/images/": "../../../static/",
         "/images/logo.png": "../../../static/logo.png",
         '<link rel="stylesheet" href="/css/styles.28722f0782c05e6eb06366f3f97b2b7f1285a6cdbecada724ee0be51706012ae.css">': '<link rel="stylesheet" href="../../../style.css">',
         '<link rel="stylesheet" href="/css/print.27fc184f8670f41a2690985390779e7b20335a8fadff8fa015cf9417ffe50c36.css" media="print">': ''
@@ -16,10 +17,10 @@ def process_file(fpath):
     with open(fpath, 'r') as f:
         content = ''.join(f.readlines())
         for orig,repl in GLOBAL_REPLACES.items():
-            content.replace(orig, repl)
+            content = content.replace(orig, repl)
     with open(fpath, 'w') as f:
         if content:
-            print("writing content")
+            print("writing content to " + str(fpath))
             f.write(content)
 
 if __name__ == '__main__':
