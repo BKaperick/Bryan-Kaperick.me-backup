@@ -6,6 +6,18 @@ from itertools import chain
 # Usage: python3 fix_html.py path/to/input.html
 
 GLOBAL_REPLACES = {
+        '"/poetry/"': '"../poetry/poetry.html"',
+        '"/photos/"': '"../photos/photos.html"',
+        '"/bio/"': '"../bio/bio.html"',
+        '"/blog-post/"': '"../blog-post/blog-post.html"',
+        '"/contact/"': '"../contact/contact.html"',
+        
+        '<a href="/en/poetry/"': '<a href="../poetry/poetry.html"',
+        '<a href="/en/photos/"': '<a href="../photos/photos.html"',
+        '<a href="/en/bio/"': '<a href="../bio/bio.html"',
+        '<a href="/en/blog-post/"': '<a href="../blog-post/blog-post.html"',
+        '<a href="/en/contact/"': '<a href="../contact/contact.html"',
+
         "/images/": "../../../static/",
         "/images/logo.png": "../../../static/logo.png",
         '<link rel="stylesheet" href="/css/styles.28722f0782c05e6eb06366f3f97b2b7f1285a6cdbecada724ee0be51706012ae.css">': '<link rel="stylesheet" href="../../../style.css">',
