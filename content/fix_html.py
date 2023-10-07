@@ -6,15 +6,27 @@ from itertools import chain
 # Usage: python3 fix_html.py path/to/input.html
 
 GLOBAL_REPLACES = {
-        '<link rel="alternate" hreflang="en" href="/en/': '<link rel="alternate" hreflang="en" href="../../en/',
-        '<link rel="alternate" hreflang="fr" href="/fr/': '<link rel="alternate" hreflang="fr" href="../../fr/',
-
+        'rel="alternate" hreflang="en" href="/en/': 'rel="alternate" hreflang="en" href="../../en/',
+        'rel="alternate" hreflang="fr" href="/fr/': 'rel="alternate" hreflang="fr" href="../../fr/',
+        'rel="alternate" href="/fr/': 'rel="alternate" href="../../fr/',
+        'rel="alternate" href="/en/': 'rel="alternate" href="../../en/',
         '"/poetry/"': '"../poetry/poetry.html"',
         '"/photos/"': '"../photos/photos.html"',
         '"/bio/"': '"../bio/bio.html"',
         '"/blog-post/"': '"../blog-post/blog-post.html"',
         '"/contact/"': '"../contact/contact.html"',
         
+        'rel="alternate" href="../../en/poetry/"': 'rel="alternate" href="../../en/poetry/poetry.html"',
+        'rel="alternate" href="../../en/photos/"': 'rel="alternate" href="../../en/photos/photos.html"',
+        'rel="alternate" href="../../en/contact/"': 'rel="alternate" href="../../en/contact/contact.html"',
+        'rel="alternate" href="../../en/bio/"': 'rel="alternate" href="../../en/bio/bio.html"',
+        'rel="alternate" href="../../en/blog-post/"': 'rel="alternate" href="../../en/blog-post/blog-post.html"',
+        'rel="alternate" href="../../fr/poetry/"': 'rel="alternate" href="../../fr/poetry/poetry.html"',
+        'rel="alternate" href="../../fr/photos/"': 'rel="alternate" href="../../fr/photos/photos.html"',
+        'rel="alternate" href="../../fr/contact/"': 'rel="alternate" href="../../fr/contact/contact.html"',
+        'rel="alternate" href="../../fr/bio/"': 'rel="alternate" href="../../fr/bio/bio.html"',
+        'rel="alternate" href="../../fr/blog-post/"': 'rel="alternate" href="../../fr/blog-post/blog-post.html"',
+
         '<a href="/en/poetry/"': '<a href="../poetry/poetry.html"',
         '<a href="/en/photos/"': '<a href="../photos/photos.html"',
         '<a href="/en/bio/"': '<a href="../bio/bio.html"',
