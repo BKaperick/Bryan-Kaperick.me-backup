@@ -6,6 +6,9 @@ from itertools import chain
 # Usage: python3 fix_html.py path/to/input.html
 
 GLOBAL_REPLACES = {
+        'href="/en/"': 'href="../mainpage.html"',
+        'href="/"': 'href="../mainpage.html"',
+
         'rel="alternate" hreflang="en" href="/en/': 'rel="alternate" hreflang="en" href="../../en/',
         'rel="alternate" hreflang="fr" href="/fr/': 'rel="alternate" hreflang="fr" href="../../fr/',
         'rel="alternate" href="/fr/': 'rel="alternate" href="../../fr/',
