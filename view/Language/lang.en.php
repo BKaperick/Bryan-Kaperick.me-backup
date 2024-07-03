@@ -1,3 +1,3 @@
 <?php
-$language['POETRY_TITLE'] = "Popular Tutorial";
+$language = array('POETRY_TITLE'=>"Poetry");
 ?>
