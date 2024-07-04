@@ -4,18 +4,20 @@ $lang = $_GET["lang"] ?? "en";
 ?>
 <html lang="<?php echo $lang; ?>">
 
+<html class="nojs" lang=$lang dir="ltr">
 <head>
-<title>PHP Test</title>
-</head>
-<body>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="style.css">
 <?php 
 
 $language = $_GET["lang"] ?? "en";
-echo "<p>Hello World, $language is my language</p>"; 
 require_once("./view/Language/lang.".$lang.".php");
-readfile("./content/en/mainpage.html")
+
+
+readfile("./content/".$lang."/mainpage.html")
 ?>
+<title><?php echo $language["SITE_TITLE"]; ?></title>
 <div class="demo-page-title"><?php echo $language["POETRY_TITLE"]; ?></div>
 
-</body>
 </html>
