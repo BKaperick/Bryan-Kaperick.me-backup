@@ -19,7 +19,9 @@ with open("poems.json", "r+") as fw:
             "month": str(datetime.datetime.now().strftime("%B"))[:3],
             "year": str(datetime.datetime.now().year)
             }
-        poems[longest_word + '_' + str(count)] = d
+        nickname = longest_word + '_' + str(count) if longest_word in poems.keys() else longest_word
+    
+        poems[nickname] = d
         count += 1
         
         os.rename("./new/" + file, "./raw/" + file)
