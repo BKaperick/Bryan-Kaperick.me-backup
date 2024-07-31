@@ -17,7 +17,8 @@ with open("poems.json", "r+") as fw:
             "title": name_guess,
             "author": "Bryan Kaperick",
             "month": str(datetime.datetime.now().strftime("%B"))[:3],
-            "year": str(datetime.datetime.now().year)
+            "year": str(datetime.datetime.now().year),
+            "rawpath": "./raw/" + file
             }
         nickname = longest_word + '_' + str(count) if longest_word in poems.keys() else longest_word
     

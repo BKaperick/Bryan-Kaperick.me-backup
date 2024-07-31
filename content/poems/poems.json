@@ -28,224 +28,258 @@
         "body": "<p>Nights were not made for the crowds, and they sever<br>\nYou from your neighbor, so you shall never<br>\nSeek him, defiantly, at night.<br>\nBut if you make your dark house light,<br>\nTo look on strangers in your room,<br>\nYou must reflect\u2014on whom.</p>\n<p>False lights that on men&rsquo;s faces play<br>\nDistort them gruesomely.<br>\nYou look upon a disarray,<br>\nA world that seems to reel and sway,<br>\nA waving, glittering sea.<br>\nOn their foreheads gleams a yellow shine<br>\nWhere thoughts are chased away.<br>\nTheir glances flicker mad from wine,<br>\nAnd to the words they say<br>\nStrange heavy gestures make reply,<br>\nThat struggle in the buzzing room;<br>\nAnd they say always, &ldquo;I&rdquo; and &ldquo;I&rdquo;;<br>\nAnd mean\u2014they know not whom.</p>"
     },
     "daisy": {
+        "rawpath": "./raw/da_isy.txt",
         "title": "Da isy",
         "author": "Bryan Kaperick",
         "month": "Jul",
         "year": "2024"
     },
     "asif": {
+        "rawpath": "./raw/as_if.txt",
         "title": "As if.",
         "author": "Bryan Kaperick",
         "month": "Jul",
         "year": "2024"
     },
     "untitled_jun24": {
+        "rawpath": "./raw/untitled_jun2024.txt",
         "title": "Untitled",
         "author": "Bryan Kaperick",
         "month": "Jun",
         "year": "2024"
     },
     "float": {
+        "rawpath": "./raw/free_to_float.txt",
         "title": "Free to float",
         "author": "Bryan Kaperick",
         "month": "May",
         "year": "2024"
     },
     "decline": {
+        "rawpath": "./raw/while_in_decline.txt",
         "title": "While in decline",
         "author": "Bryan Kaperick",
         "month": "May",
         "year": "2024"
     },
     "triad": {
+        "rawpath": "./raw/untitled_triad.txt",
         "title": "Untitled triad",
         "author": "Bryan Kaperick",
         "month": "May",
         "year": "2024"
     },
     "moroccan": {
+        "rawpath": "./raw/moroccan_mist.txt",
         "title": "Moroccan mist",
         "author": "Bryan Kaperick",
         "month": "May",
         "year": "2024"
     },
     "watch": {
+        "rawpath": "./raw/watch.txt",
         "title": "Watch",
         "author": "Bryan Kaperick",
         "month": "May",
         "year": "2024"
     },
     "untitled_apr24": {
+        "rawpath": "./raw/untitled_apr2024.txt",
         "title": "Untitled",
         "author": "Bryan Kaperick",
         "month": "Apr",
         "year": "2024"
     },
     "doghouse": {
+        "rawpath": "./raw/the_doghouse.txt",
         "title": "The doghouse",
         "author": "Bryan Kaperick",
         "month": "Apr",
         "year": "2024"
     },
     "mardi": {
+        "rawpath": "./raw/un_mardi_soir.txt",
         "title": "Un mardi soir",
         "author": "Bryan Kaperick",
         "month": "Mar",
         "year": "2024"
     },
     "tower": {
+        "rawpath": "./raw/the_tower.txt",
         "title": "The tower",
         "author": "Bryan Kaperick",
         "month": "Feb",
         "year": "2024"
     },
     "place": {
+        "rawpath": "./raw/a_cool_dry_place.txt",
         "title": "A cool, dry place",
         "author": "Bryan Kaperick",
         "month": "Jan",
         "year": "2024"
     },
     "dark": {
+        "rawpath": "./raw/in_the_dark.txt",
         "title": "In the dark",
         "author": "Bryan Kaperick",
         "month": "Jan",
         "year": "2024"
     },
     "monorhyme3": {
+        "rawpath": "./raw/monorhyme_sketch_3.txt",
         "title": "Monorhyme sketch #3",
         "author": "Bryan Kaperick",
         "month": "Dec",
         "year": "2023"
     },
     "monorhyme2": {
+        "rawpath": "./raw/monorhyme_sketch_2.txt",
         "title": "Monorhyme sketch #2",
         "author": "Bryan Kaperick",
         "month": "Nov",
         "year": "2023"
     },
     "monorhyme1": {
+        "rawpath": "./raw/monorhyme_sketch_1.txt",
         "title": "Monorhyme sketch #1",
         "author": "Bryan Kaperick",
         "month": "Nov",
         "year": "2023"
     },
     "sami": {
+        "rawpath": "./raw/ode_to_sami.txt",
         "title": "Ode to Sami",
         "author": "Bryan Kaperick",
         "month": "Nov",
         "year": "2023"
     },
     "chicory": {
+        "rawpath": "./raw/chicory_root.txt",
         "title": "Chicory root",
         "author": "Bryan Kaperick",
         "month": "Oct",
         "year": "2023"
     },
     "couples": {
+        "rawpath": "./raw/untitled_couples.txt",
         "title": "Untitled couples",
         "author": "Bryan Kaperick",
         "month": "Oct",
         "year": "2023"
     },
     "limp": {
+        "rawpath": "./raw/limp.txt",
         "title": "Limp",
         "author": "Bryan Kaperick",
         "month": "Oct",
         "year": "2023"
     },
     "raven": {
+        "rawpath": "./raw/a_ravens_lust.txt",
         "title": "A raven&rsquo;s lust",
         "author": "Bryan kaperick",
         "month": "Oct",
         "year": "2023",
-        "rawpath": "./raw/a_ravens_lust.txt",
         "body": "<p>A pressing matter of morning walks,<br>\nA pressure on the heart.<br>\nShe marches, tramples, stomps, and stalks<br>\nMy mind while we\u2019re apart.</p>\n<p>We both agree to guard our distance,<br>\nBut hunger grows like wolf to sheep<br>\nWhose prey is stoled by thorn\u00e8d fence.<br>\nA raven\u2019s lust at bay to keep.</p>"
     },
 
     "september": {
+        "rawpath": "./raw/september_slump.txt",
         "title": "September slump",
         "author": "Bryan Kaperick",
         "month": "Sep",
         "year": "2023",
-        "rawpath": "./raw/september_slump.txt",
         "body": "<p>Obsessively revising<br>\nSelf-consuming second guessing<br>\nSeeking sense in something<br>\nset aflame by sorry selfish me.</p>\n<p>Hiving scared hungover<br>\nfrom a hopeless couple months<br>\nof perfect idleness I passed beneath<br>\nyour gentle glowing grange.</p>\n<p>And once again I wash in vain<br>\nto free my will from moping<br>\nMeaning while I wait I\u2019m anxiously aware<br>\nthat every waking moment means<br>\nthe more and more you drift away from me.</p>"
     },
     "apparently": {
+        "rawpath": "./raw/hm_apparently_pompeii_isnt_in_greece.txt",
         "title": "Hm, apparently Pompeii isn't in Greece",
         "author": "Bryan Kaperick",
         "month": "Sep",
         "year": "2023"
     },
     "cripples": {
+        "rawpath": "./raw/untitled_aug2023.txt",
         "title": "Untitled",
         "author": "Bryan Kaperick",
         "month": "Aug",
         "year": "2023"
     },
     "sharptremor": {
+        "rawpath": "./raw/untitled_jul2023.txt",
         "title": "Untitled",
         "author": "Bryan Kaperick",
         "month": "Jul",
         "year": "2023"
     },
     "untitled_night": {
+        "rawpath": "./raw/untitled_night.txt",
         "title": "Untitled night",
         "author": "Bryan Kaperick",
         "month": "Feb",
         "year": "2023"
     },
     "crossing": {
+        "rawpath": "./raw/crossing_your_path.txt",
         "title": "Crossing your path",
         "author": "Bryan Kaperick",
         "month": "Jul",
         "year": "2023"
     },
     "untitledpt2": {
+        "rawpath": "./raw/untitlted_pt_2.txt",
         "title": "Untitled pt. 2",
         "author": "Bryan Kaperick",
         "month": "Jul",
         "year": "2023"
     },
     "whalebone": {
+        "rawpath": "./raw/whalebone_branches.txt",
         "title": "Whalebone branches",
         "author": "Bryan Kaperick",
         "month": "Jun",
         "year": "2023"
     },
     "lapins": {
+        "rawpath": "./raw/untitled_may2023.txt",
         "title": "Untitled",
         "author": "Bryan Kaperick",
         "month": "May",
         "year": "2023"
     },
     "oozing": {
+        "rawpath": "./raw/those_oozing_stacks_grow.txt",
         "title": "Those oozing stacks grow",
         "author": "Bryan Kaperick",
         "month": "Apr",
         "year": "2023"
     },
     "bruges": {
+        "rawpath": "./raw/bruges_pluie_blues.txt",
         "title": "Bruges pluie blues",
         "author": "Bryan Kaperick",
         "month": "Mar",
         "year": "2023"
     },
     "kansas_4": {
+        "rawpath": "./raw/kansas_sky.txt",
         "title": "Kansas sky",
         "author": "Bryan Kaperick",
         "month": "Jul",
         "year": "2022"
     },
     "slippery_1": {
+        "rawpath": "./raw/like_jackals_lips_slippery.txt",
         "title": "Like jackals, lips slippery",
         "author": "Bryan Kaperick",
         "month": "Mai",
         "year": "2022"
     },
     "fierce": {
+        "rawpath": "./raw/fierce_creature.txt",
         "title": "Fierce creature",
         "author": "Bryan Kaperick",
         "month": "Jan",
         "year": "2020"
-    },
+    }
 }
