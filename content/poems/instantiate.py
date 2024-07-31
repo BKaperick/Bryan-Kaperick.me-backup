@@ -22,7 +22,7 @@ with open("poems.json", "r+") as fw:
         poems[longest_word + '_' + str(count)] = d
         count += 1
         
-
+        os.rename("./new/" + file, "./raw/" + file)
 
     fw.seek(0)
     json.dump(poems, fw, indent=4)
