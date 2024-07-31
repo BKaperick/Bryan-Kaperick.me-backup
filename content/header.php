@@ -49,11 +49,6 @@ $language_toggle = array(
   }
 </script>
 
-<script src="/js/script-early.min.3b0e641814c87f6a1d6ffa5e7d597f29faa8ce11482541e8801dc34013817c91.js"></script>
-<script defer src="/js/lib/umbrella.min.6e17830ccdded0a13b96d6993865b58202bc2ee750e5892a51858ab048b2bebb.js"></script>
-<script defer src="/js/script.min.c2752732454d16255cfd30375b9a3e48a37b7b809c917b33920889c859ba1300.js"></script>
-
-
 </head>
 
 <body class="list-page front">
@@ -72,7 +67,7 @@ $language_toggle = array(
 </svg>
 <ul class="navbar">
 
-<li><a rel="alternate" lang="<?$language_toggle[$lang]?>" hreflang="<?$language_toggle[$lang]?>" href="?lang=<?=$language_toggle[$lang];?>"> <?=$language['LANGUAGE_TOGGLE'];?> </a></li>
+<li><a rel="alternate" lang="<?=$language_toggle[$lang]?>" hreflang="<?=$language_toggle[$lang]?>" href="?lang=<?=$language_toggle[$lang];?>"><?=$language['LANGUAGE_TOGGLE'];?></a></li>
 
 </ul>
 </nav>
@@ -85,8 +80,8 @@ $language_toggle = array(
 
 <?php
 
-echo '<li><a href="/content/' . $lang . '/mainpage.html" class="active" aria-current="page">Home</a></li>';
-echo '<li><a href="/content/' . $lang. '/poetry/poetry.html">Poetry</a></li>';
+echo '<li><a href="/" class="active" aria-current="page">Home</a></li>';
+echo '<li><a href="/content/poetry.php">Poetry</a></li>';
 echo '<li><a href="/content/' . $lang. '/contact/contact.html">Contact</a></li>';
 echo '<li><a href="/content/' . $lang. '/photos/photos.html">Photos</a></li>';
 echo '<li><a href="/content/' . $lang. '/bio/bio.html">Bio</a></li>';
