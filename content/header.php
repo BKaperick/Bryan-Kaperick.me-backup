@@ -6,6 +6,8 @@ $language_toggle = array(
     'fr'=>'en');
 ?>
 
+<link rel="stylesheet" href="../../../style.css">
+
 <html lang="<?php echo $lang; ?>">
 <html class="nojs" lang=$lang dir="ltr">
 <meta charset="utf-8">
@@ -96,12 +98,5 @@ echo '<li><a href="/content/' . $lang. '/blog-post/blog-post.html">Blog Posts</a
 <main class="main layout__main">
 <article class="single-view">
 <div class="content">
-
-<figure class="image">
-<img src="/static/logo_man_strikes.jpg">
-</figure>
-
 </body>
-<title><?php echo $language["SITE_TITLE"]; ?></title>
-
 </html>
