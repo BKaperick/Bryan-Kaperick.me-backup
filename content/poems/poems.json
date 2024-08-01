@@ -32,7 +32,6 @@
         "title": "Da isy",
         "author": "Bryan Kaperick",
         "order_in_month": 2,
-        "order_in_month": 1,
         "month": "Jul",
         "year": "2024",
         "body": "<p>Sunlight stained your bedroom walls.<br>\nYou and I hid baking in the sheets.<br>\nEyes shut, we searched<br>\nand found each other\u2019s skin<br>\nstill damp from the night.<br>\nWe took turns sinking back into sleep,<br>\nfleeing our obligations to The Greats<br>\nwho paved the city streets.</p>\n<p>After noon we emerged<br>\nto face the day:<br>\nour groggy eyes opened;<br>\nyour dimples glistened.<br>\nWe feasted<br>\non beauty eternal, carved into stone<br>\nand on beauty fleeting, your tender lips<br>\nwrapped around a burning cigarette.</p>\n<p>You took your last drag.<br>\nAnd from the ashes,<br>\na daisy was born,<br>\nmeant only to wilt.<br>\nAnd so I tried<br>\nto catch each petal as it fell.</p>"
@@ -41,7 +40,6 @@
         "rawpath": "./raw/as_if.txt",
         "title": "As if.",
         "author": "Bryan Kaperick",
-        "order_in_month": 1,
         "order_in_month": 1,
         "month": "Jul",
         "year": "2024",
@@ -81,7 +79,7 @@
         "order_in_month": 3,
         "month": "May",
         "year": "2024",
-        "body": "<p>Break my bones<br>\nif you want to<br>\nI\u2019ll wait</p>\n<p>For them to heal before<br>\nI call you<br>\nagain</p>\n<p>And when I do<br>\nI\u2019ll come to you<br>\nand crack yours too</p>\n<p>The fractures\u2019ll fill<br>\nus one<br>\nwith the other</p>\n<p>The reluctant sheet<br>\ncan fall<br>\nbetween our feet</p>"
+        "body": "<p>Break my bones<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if you want to<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I\u2019ll wait</p>\n<p>For them to heal before<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I call you<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;again</p>\n<p>And when I do<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I\u2019ll come to you<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and crack yours too</p>\n<p>The fractures\u2019ll fill<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;us one<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with the other</p>\n<p>The reluctant sheet<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;can fall<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;between our feet</p>"
     },
     "moroccan": {
         "rawpath": "./raw/moroccan_mist.txt",
@@ -252,7 +250,7 @@
         "order_in_month": 1,
         "month": "Aug",
         "year": "2023",
-        "body": "<p>A giant in the shoes of a man<br>\nA god wrapped in a mortal\u2019s pelt<br>\nA beggar assuming a rich man\u2019s svelte<br>\nA one-trick pony who wows again.</p>\n<p>All those they rose under a cool twilight eve<br>\nWith friends and unknowns alike<br>\nA savory potluck among salty waves reaching<br>\nEver closer, \u2018neath the call of soft moonlight.</p>\n<p>But from the water\u2019s flesh, soggy cripples emerged<br>\nEach more grotesque than the last<br>\nUntil the bastard crew\u2019s final lizard<br>\nCrawled out, terrorizing the virgin grass.</p>\n<p>\u00ab Oh ! How he howled like a pig<br>\nall mixed up in his own blood<br>\nand his own foul slime! \u00bb</p>\n<p>The giant, at this he slouched<br>\nThe god took years on his shoulders<br>\nThe beggar sat and wept, his appetite lost<br>\nThe lame pony spooked off, driven mad by the odours.</p>\n<p>Those hogs slabbered with haste, as if at the trough<br>\nSweet death had complied with their final demand<br>\nAll noble spirits on the shore had crumpled<br>\nFor heavy are the souls of the damned.</p>"
+        "body": "<p>A giant in the shoes of a man<br>\nA god wrapped in a mortal\u2019s pelt<br>\nA beggar assuming a rich man\u2019s svelte<br>\nA one-trick pony who wows again.</p>\n<p>All those they rose under a cool twilight eve<br>\nWith friends and unknowns alike<br>\nA savory potluck among salty waves reaching<br>\nEver closer, \u2018neath the call of soft moonlight.</p>\n<p>But from the water\u2019s flesh, soggy cripples emerged<br>\nEach more grotesque than the last<br>\nUntil the bastard crew\u2019s final lizard<br>\nCrawled out, terrorizing the virgin grass.</p>\n<p>&nbsp;&nbsp;&nbsp;<it>\u00ab Oh ! How he howled like a pig<br>\n&nbsp;&nbsp;&nbsp;all mixed up in his own blood<br>\n&nbsp;&nbsp;&nbsp;and his own foul slime! \u00bb</it></p>\n<p>The giant, at this he slouched<br>\nThe god took years on his shoulders<br>\nThe beggar sat and wept, his appetite lost<br>\nThe lame pony spooked off, driven mad by the odours.</p>\n<p>Those hogs slabbered with haste, as if at the trough<br>\nSweet death had complied with their final demand<br>\nAll noble spirits on the shore had crumpled<br>\nFor heavy are the souls of the damned.</p>"
     },
     "sharptremor": {
         "rawpath": "./raw/untitled_jul2023.txt",
@@ -333,7 +331,7 @@
         "order_in_month": 1,
         "month": "Jul",
         "year": "2022",
-        "body": "<p>This morning I watched a cloud fall to earth.<br>\nOnce suspended in the Kansas sky<br>\nnow turned to vapor in my eye.<br>\nThe eye which held a twinkle last night<br>\nNot from a star, but a lightning strike.<br>\nAnd here I gaze at Julie next to me<br>\nShe takes my cloud and twinkle and goes to sleep</p>"
+        "body": "<p>This morning I watched a cloud fall to earth.<br>\nOnce suspended in the Kansas sky<br>\n&nbsp;&nbsp;&nbsp;now turned to vapor in my eye.<br>\nThe eye which held a twinkle last night<br>\nNot from a star, but a lightning strike.<br>\nAnd here I gaze at Julie next to me<br>\n&nbsp;&nbsp;&nbsp;She takes my cloud and twinkle and goes to sleep</p>"
     },
     "slippery_1": {
         "rawpath": "./raw/like_jackals_lips_slippery.txt",
