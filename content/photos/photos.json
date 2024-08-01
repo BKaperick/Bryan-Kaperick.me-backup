@@ -191,7 +191,7 @@
         "fr": "Moi et mes colocs dans notre cour",
         "people": ["bryan", "alex", "sami", "constance", "floriane", "tim"]
     },
-    "Terribles</em>_2023_4": {
+    "terrible": {
         "rawpath": "./photos/raw/aux-enfants-terribles.jpg",
         "year": 2023,
         "order_in_year": 4,
@@ -435,7 +435,7 @@
             "rishik",
             "bryan"
         ],
-        "rawpath": "raw/tylerbday2024.jpg"
+        "rawpath": "./photos/raw/tylerbday2024.jpg"
     },
     "Amsterdam_2024_14": {
         "rawpath": "./photos/raw/avi-rishik-moi-amsterdam.jpg",

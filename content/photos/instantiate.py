@@ -35,7 +35,7 @@ with open('photos_old_en.html', 'r') as f_en:
                     current_year = year
                     count = 1
                 
-                desc_words = en.split(" ")
+                desc_words = [w.replace(r"<","").replace(r">","").replace(",","") for w in en.split(" ")]
                 longest_word = max(desc_words, key=len)
                 d = {
                     "rawpath": rawpath,
@@ -45,10 +45,20 @@ with open('photos_old_en.html', 'r') as f_en:
                     "fr": fr,
                     "people": [],
                     }
-                key = longest_word + "_" + year_str + "_" + str(count)
-                photos[key] = d
-                print("`mv {0} {1}`".format(oldpath, "." + rawpath))
-                os.rename(oldpath, "." + rawpath)
+                # update element instead of overwriting if possible
+                elem = [k for k,v in photos.items() if v['rawpath'] == d['rawpath']]
+                if any(elem):
+                    key = elem[0]
+                    photos[key]['year'] = d['year']
+                    photos[key]['order_in_year'] = d['order_in_year']
+                    photos[key]['en'] = d['en']
+                    photos[key]['fr'] = d['fr']
+                else:
+                    key = longest_word + "_" + year_str + "_" + str(count)
+                    photos[key] = d
+                if os.path.isfile(oldpath):
+                    print("`mv {0} {1}`".format(oldpath, "." + rawpath))
+                    os.rename(oldpath, "." + rawpath)
             
             fwrite.seek(0)
             json.dump(photos, fwrite, indent=4)
