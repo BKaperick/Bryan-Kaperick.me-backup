@@ -46,9 +46,38 @@
 <p>En plus, la plupart de mes poèmes sont écrits en anglais, et je vais pas les traduire pour éviter de me ridiculiser encore plus que je me ridiculise en partageant mes poèmes sur mon site web publique.</p>
 <p>Je dirais que mon style d&rsquo;écriture tombe quelque part sur le spectre entre <em>dérivée</em>, et <em>cringe</em>.  Bien sur que je reste ouvert à tout genre de retour.</p>
 
-</div>
+<p><details>
+  <summary><h1 id="les-oeuvres-qui-minspirent">
+  <?=$language['Works that inspire me'];?>
+</h1>
+</summary>
+
+<?php include($_SERVER['DOCUMENT_ROOT']."/content/poems/poems_inspiration.html");?>
+</details>
+
+<details>
+  <summary><h1 id="my-works">
+  <?=$language['My works'];?>
+</h1>
+</summary>
+
+<?php include($_SERVER['DOCUMENT_ROOT']."/content/poems/poems2024.html"); ?>
+
+    <details>
+      <summary><h3 id="2023-20-poèmes">2023 (20 <?=$language['poem'];?>s)</h3>
+    </summary>
+
+    <?php include($_SERVER['DOCUMENT_ROOT']."/content/poems/poems2023.html"); ?>
+    </details>
+
+    <details>
+        <summary><h3 id="2020---2022-3-poèmes">2020 - 2022 (3 <?=$language['poem'];?>s)</h3>
+    </summary>
+
+    <?php include($_SERVER['DOCUMENT_ROOT']."/content/poems/poems2022.html"); ?>
+    </details>
+</details>
 </article>
 </main>
 </div>
 </body>
-</html>

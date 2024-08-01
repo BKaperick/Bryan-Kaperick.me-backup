@@ -1,5 +1,7 @@
 <?php 
 $lang = $_GET["lang"] ?? "en";
+global $language;
+require_once("../view/Language/lang.".$lang.".php");
 
 $string = file_get_contents("./photos/photos.json");
 $p = json_decode($string);
