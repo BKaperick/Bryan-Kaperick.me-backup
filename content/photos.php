@@ -6,6 +6,5 @@ $p = json_decode($string);
 
 include($_SERVER['DOCUMENT_ROOT']."/content/header.php");
 include($_SERVER['DOCUMENT_ROOT']."/content/".$lang."/photos/photos.html");
-include($_SERVER['DOCUMENT_ROOT']."/content/photos/photos.html");
 include($_SERVER['DOCUMENT_ROOT']."/content/footer.php");
 ?>

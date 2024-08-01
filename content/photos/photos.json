@@ -67,7 +67,7 @@
             "lorenzo"
         ]
     },
-    "Ivry-sur-Seine_2019_3": {
+    "ivry": {
         "rawpath": "./photos/raw/a-bunch-of-people-chez-moi-ivry.jpg",
         "year": 2019,
         "order_in_year": 3,
@@ -127,7 +127,7 @@
             "julie"
         ]
     },
-    "L&rsquo;\u00c9cart_2020_5": {
+    "lecart": {
         "rawpath": "./photos/raw/michael-bryan-lecart.jpg",
         "year": 2020,
         "order_in_year": 5,
@@ -391,7 +391,7 @@
             "pierre"
         ]
     },
-    "Thom&rsquo;s_2023_11": {
+    "thoms": {
         "rawpath": "./photos/raw/sachin-me-edi-martijn.jpg",
         "year": 2023,
         "order_in_year": 11,
@@ -427,7 +427,7 @@
             "quentin"
         ]
     },
-    "Rishik&rsquo;s_2023_14": {
+    "rishiks_2023_14": {
         "rawpath": "./photos/raw/eatin-rishik-chicken.jpg",
         "year": 2023,
         "order_in_year": 14,
@@ -437,7 +437,7 @@
             "bryan"
         ]
     },
-    "Thom&rsquo;s_2023_15": {
+    "Thoms_2023_15": {
         "rawpath": "./photos/raw/alex-nadir-me-sachin-julien-morzine.jpg",
         "year": 2023,
         "order_in_year": 15,
@@ -496,7 +496,7 @@
             "jason"
         ]
     },
-    "Sami&rsquo;s_2023_20": {
+    "Samis_2023_20": {
         "rawpath": "./photos/raw/roommates_sami.jpg",
         "year": 2023,
         "order_in_year": 20,
@@ -513,7 +513,7 @@
             "floriane"
         ]
     },
-    "year&rsquo;s_2024_1": {
+    "newyear2024": {
         "rawpath": "./photos/raw/newyear2024.jpg",
         "year": 2024,
         "order_in_year": 1,
@@ -539,7 +539,7 @@
             "antoine"
         ]
     },
-    "Sila&rsquo;s_2024_3": {
+    "Silas_2024_3": {
         "rawpath": "./photos/raw/sila-bday-beach.jpg",
         "year": 2024,
         "order_in_year": 3,
@@ -552,7 +552,7 @@
             "moneer"
         ]
     },
-    "Nempont-Saint-Firmin_2024_4": {
+    "NempontSaintFirmin_2024_4": {
         "rawpath": "./photos/raw/sila-bday-balcony.jpg",
         "year": 2024,
         "order_in_year": 4,
@@ -566,7 +566,7 @@
             "leah_laura"
         ]
     },
-    "mother&rsquo;s_2024_5": {
+    "mothers_2024_5": {
         "rawpath": "./photos/raw/couscous.jpg",
         "year": 2024,
         "order_in_year": 5,

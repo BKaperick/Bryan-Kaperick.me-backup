@@ -3,6 +3,9 @@ import os
 import json
 import sys
 
+
+invalid_key_chars = [r"<", r">", ",", ".", r"&rsquo;", "'", "-"]
+
 with open('photos_old_en.html', 'r') as f_en:
     with open('photos_old_fr.html', 'r') as f_fr:
         with open('photos.json', 'r+') as fwrite:
@@ -34,8 +37,11 @@ with open('photos_old_en.html', 'r') as f_en:
                 else:
                     current_year = year
                     count = 1
-                
-                desc_words = [w.replace(r"<","").replace(r">","").replace(",","") for w in en.split(" ")]
+                desc_words = []
+                for w in en.split(" "):
+                    for c in invalid_key_chars:
+                        w = w.replace(c,"")
+                    desc_words.append(w)
                 longest_word = max(desc_words, key=len)
                 d = {
                     "rawpath": rawpath,
