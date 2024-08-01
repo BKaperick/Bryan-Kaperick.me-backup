@@ -81,11 +81,11 @@ $language_toggle = array(
 <ul class="navbar">
 
 <li><a href="/" class="active" aria-current="page"><?=$language['Home'];?></a></li>
-<li><a href="/content/poetry.php"><?=$language['Poetry'];?></a></li>
-<li><a href="/content/contact.php"><?=$language['Contact'];?></a></li>
-<li><a href="/content/photos.php"><?=$language['Photos'];?></a></li>
-<li><a href="/content/bio.php"><?=$language['Bio'];?></a></li>
-<li><a href="/content/blog-post.php"><?=$language['Blog Posts'];?></a></li>
+<li><a href="/content/poetry.php?lang=<?=$lang?>"><?=$language['Poetry'];?></a></li>
+<li><a href="/content/contact.php?lang=<?=$lang?>"><?=$language['Contact'];?></a></li>
+<li><a href="/content/photos.php?lang=<?=$lang?>"><?=$language['Photos'];?></a></li>
+<li><a href="/content/bio.php?lang=<?=$lang?>"><?=$language['Bio'];?></a></li>
+<li><a href="/content/blog-post.php?lang=<?=$lang?>"><?=$language['Blog Posts'];?></a></li>
 </ul>
 
 </nav>
