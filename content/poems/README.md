@@ -1,4 +1,4 @@
-Subdirectory structure:
+# Subdirectory structure
 
 `poems.json` contains the poems and associated metadata.  This is what gets ingested to create php/html with `create_html.py` but is not read directly when loading the page.
 
@@ -15,3 +15,16 @@ Subdirectory structure:
     `python format_poem.py [poems]` - pass an explicit space-separated list of poem keys to overwrite in addition to any missing a `body` key.
 
 `create_html.py` reads `poems.json` and creates the php/html blocks needed to embed them in a page in reverse-chronological order.
+
+# Usage
+
+When a new poem is added, the following steps are necessary.
+1. Create `./new/poem_name.txt` containing plain-text of poem.
+2. `python instantiate.py`
+3. `python format_poem.py`
+4. Manually inspect the new entry in `poems.json` and fix any metadata details that are incorrectly filled.
+5. `python create_html.py` and copy-paste the new poem php/html block into `../poetry.php`.
+
+# TODO
+We want to automate steps 2, 3, and 5 above.
+
