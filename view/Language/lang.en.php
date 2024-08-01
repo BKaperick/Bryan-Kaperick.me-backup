@@ -16,6 +16,9 @@ $language = array(
     'Sep'=>'September',
     'Oct'=>'October',
     'Nov'=>'November',
-    'Dec'=>'December'
+    'Dec'=>'December',
+    'poem'=>'poem',
+    'Works that inspire me'=>'Works that inspire me',
+    'My works'=>'My works'
 );
 ?>
