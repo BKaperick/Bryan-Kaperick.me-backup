@@ -47,7 +47,7 @@ with open('photos_old_en.html', 'r') as f_en:
                     }
                 key = longest_word + "_" + year_str + "_" + str(count)
                 photos[key] = d
-                #print("`mv {0} {1}`".format(oldpath, "." + rawpath))
+                print("`mv {0} {1}`".format(oldpath, "." + rawpath))
                 os.rename(oldpath, "." + rawpath)
             
             fwrite.seek(0)
