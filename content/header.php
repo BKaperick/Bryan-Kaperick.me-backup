@@ -56,9 +56,9 @@ $language_toggle = array(
 <body class="list-page front">
 <div class="page layout__page layout__sidebar-second">
 <header class="header layout__header">
-<a href="./mainpage.html" title="Home" rel="home" class="header__logo"><img src="/static/logo.png" alt="Home" class="header__logo-image"></a>
+<a href="/" title="Home" rel="home" class="header__logo"><img src="/static/logo.png" alt="Home" class="header__logo-image"></a>
 <h1 class="header__site-name">
-<a href="/content/mainpage.php" title="Home" class="header__site-link" rel="home"><span><?php echo $language['SITE_TITLE'] ?></span></a>
+<a href="/" title="Home" class="header__site-link" rel="home"><span><?php echo $language['SITE_TITLE'] ?></span></a>
 </h1>
 <div class="region header__region">
 <h2 class="visually-hidden">Language selector</h2>
