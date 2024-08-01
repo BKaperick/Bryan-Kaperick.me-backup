@@ -1,0 +1,12 @@
+{
+    "tylerbday": {
+        "year": 2024,
+        "month": "May",
+        "order_in_month": 1,
+        "order_in_year": 1,
+        "en": "Tyler’s 29th birthday with Me, Tyler, Rishik, and Sunny",
+        "fr": "Le 29e anniversaire de Tyler avec Moi, Tyler, Rishik, et Sunny",
+        "people": ["tyler", "sunny", "rishik", "bryan"],
+        "rawpath": "raw/tylerbday2024.jpg"
+    }
+}

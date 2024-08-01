@@ -9,14 +9,9 @@
 <meta property="og:url" content="https://bryan-kaperick.me/en/photos/">
 <meta property="og:type" content="article">
 
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="theme-color" content="#ffffff">
-
-
 <link rel="canonical" href="https://bryan-kaperick.me/en/photos/">
 
 <link rel="alternate" hreflang="fr" href="../fr/photos/photos.html">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
 <script type="application/ld+json">
   {
@@ -42,33 +37,6 @@
 
 <body class="single-page">
 <div class="page layout__page layout__sidebar-second">
-<header class="header layout__header">
-<a href="../mainpage.html" title="Home" rel="home" class="header__logo"><img src="../../../static/logo.png" alt="Home" class="header__logo-image"></a>
-<h1 class="header__site-name">
-<a href="../mainpage.html" title="Home" class="header__site-link" rel="home"><span>Bryan Kaperick&#39;s Website</span></a>
-</h1>
-<div class="region header__region">
-<ul class="navbar">
-
-<li><a rel="alternate" href="../../fr/photos/photos.html" hreflang="fr" lang="fr">Euh, il n&#39;y a pas une version Français, hein ?</a></li>
-</ul>
-</nav>
-</div>
-</header>
-
-<nav class="main-menu layout__navigation">
-<h2 class="visually-hidden">Main menu</h2>
-<ul class="navbar">
-<li><a href="../mainpage.html">Home</a></li>
-<li><a href="../poetry/poetry.html">Poetry</a></li>
-<li><a href="../contact/contact.html">Contact</a></li>
-<li><a href="../photos/photos.html" class="active" aria-current="page">Pictures</a></li>
-<li><a href="../bio/bio.html">Bio</a></li>
-<li><a href="../blog-post/blog-post.html">Blog Posts</a></li>
-</ul>
-
-</nav>
-
 
 <main class="main layout__main">
 <article class="single-view">
@@ -78,12 +46,13 @@
 <div class="content">
 <p>Some photos of me and my friends, in reverse chronological order.</p>
 <p>
-<figure class="image">
-<img src="../../../static/tylerbday2024.jpg">
-<figcaption>
-Tyler&rsquo;s 29th birthday with Me, Tyler, Rishik, and Sunny ~ 2024</figcaption>
-</figure>
 
+<figure class="image">
+    <img src=<?='./photos/' . $p->tylerbday->rawpath;?>>
+    <figcaption>
+<?=$p->tylerbday->$lang;?> ~ <?=$p->tylerbday->year;?>
+    </figcaption>
+</figure>
 
 <figure class="image">
 <img src="../../../static/tim-bryan-horses.jpg">
@@ -460,14 +429,6 @@ Me and Bill and a dog on a mountain ~ 2017</figcaption>
 </div>
 </article>
 </main>
-
-
-<footer class="footer layout__footer">
-<p><span>© Bryan Kaperick&#39;s Website </span> <span style="color:grey"> -- Site last updated  2023-09-27 22:31:57
-</span></p>
-
-
-</footer>
 </div>
 </body>
 </html>
