@@ -6,26 +6,31 @@ with open('photos_old.html', 'r') as f:
         photos = json.load(fwrite)
         content = "".join(f.readlines()).split("\n\n")
         count = 0
-        for photo_elem in content:
+        current_year = None
+        for photo_elem in content[::-1]:
             photo_elem = photo_elem.replace("\n", "")
-            count += 1
             m = re.search(r'<img src="../../../static/(.*)">', photo_elem)
-            oldpath = "../../../static/" + m.group(1)
+            oldpath = "../../static/" + m.group(1)
             rawpath = "./photos/raw/" + m.group(1)
             m_en = re.search(r'<figcaption>(.*)</figcaption>', photo_elem)
-            print(m_en.group(1))
             en,year_str = m_en.group(1).split(' ~ ')
+            year = int(year_str.strip())
+            if year == current_year:
+                count += 1
+            else:
+                current_year = year
+                count = 1
             
             desc_words = en.split(" ")
             longest_word = max(desc_words, key=len)
             d = {
                 "rawpath": rawpath,
-                "year": int(year_str.strip()),
-                "order_in_year": 1,
+                "year": year,
+                "order_in_year": count,
                 "en": en,
                 "people": [],
                 }
-            key = longest_word + year_str + "_" + str(count)
+            key = longest_word + "_" + year_str + "_" + str(count)
             photos[key] = d
             print("`mv {0} {1}`".format(oldpath, "." + rawpath))
             #os.rename(oldpath, "." + rawpath)
