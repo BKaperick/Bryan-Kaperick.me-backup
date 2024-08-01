@@ -80,12 +80,12 @@ $language_toggle = array(
 <h2 class="visually-hidden">Main menu</h2>
 <ul class="navbar">
 
-<li><a href="/" class="active" aria-current="page">Home</a></li>
-<li><a href="/content/poetry.php">Poetry</a></li>
-<li><a href="/content/contact.php">Contact</a></li>
-<li><a href="/content/photos.php">Photos</a></li>
-<li><a href="/content/bio.php">Bio</a></li>
-<li><a href="/content/blog-post.php">Blog Posts</a></li>
+<li><a href="/" class="active" aria-current="page"><?=$language['Home'];?></a></li>
+<li><a href="/content/poetry.php"><?=$language['Poetry'];?></a></li>
+<li><a href="/content/contact.php"><?=$language['Contact'];?></a></li>
+<li><a href="/content/photos.php"><?=$language['Photos'];?></a></li>
+<li><a href="/content/bio.php"><?=$language['Bio'];?></a></li>
+<li><a href="/content/blog-post.php"><?=$language['Blog Posts'];?></a></li>
 </ul>
 
 </nav>

@@ -19,6 +19,12 @@ $language = array(
     'Dec'=>'December',
     'poem'=>'poem',
     'Works that inspire me'=>'Works that inspire me',
-    'My works'=>'My works'
+    'My works'=>'My works',
+    'Poetry'=>'Poetry',
+    'Home'=>'Home',
+    'Contact'=>'Contact',
+    'Photos'=>'Photos',
+    'Bio'=>'Bio',
+    'Blog Posts'=>'Blog Posts'
 );
 ?>
