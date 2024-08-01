@@ -4,9 +4,385 @@
         "month": "May",
         "order_in_month": 1,
         "order_in_year": 1,
-        "en": "Tyler’s 29th birthday with Me, Tyler, Rishik, and Sunny",
+        "en": "Tyler\u2019s 29th birthday with Me, Tyler, Rishik, and Sunny",
         "fr": "Le 29e anniversaire de Tyler avec Moi, Tyler, Rishik, et Sunny",
-        "people": ["tyler", "sunny", "rishik", "bryan"],
+        "people": [
+            "tyler",
+            "sunny",
+            "rishik",
+            "bryan"
+        ],
         "rawpath": "raw/tylerbday2024.jpg"
+    },
+    "country2024_1": {
+        "rawpath": "./photos/raw/tim-bryan-horses.jpg",
+        "year": 2024,
+        "order_in_year": 1,
+        "en": "Me and Tim at a horse farm in Basque country",
+        "people": []
+    },
+    "Zarautz2024_2": {
+        "rawpath": "./photos/raw/bryan-tim-stokes.jpg",
+        "year": 2024,
+        "order_in_year": 1,
+        "en": "Me and Tim at a surf hostel near Zarautz",
+        "people": []
+    },
+    "Algeciras2024_3": {
+        "rawpath": "./photos/raw/flo-tim-spain.jpg",
+        "year": 2024,
+        "order_in_year": 1,
+        "en": "Flo, Tim, and Me in Algeciras",
+        "people": []
+    },
+    "Tangiers2024_4": {
+        "rawpath": "./photos/raw/tangiers-coffee.jpg",
+        "year": 2024,
+        "order_in_year": 1,
+        "en": "Me and Tim at a caf\u00e9 in Tangiers",
+        "people": []
+    },
+    "Climbing2024_5": {
+        "rawpath": "./photos/raw/maroc-hike-cat.jpg",
+        "year": 2024,
+        "order_in_year": 1,
+        "en": "Climbing near Tetouan with Tim, Me, and a village cat",
+        "people": []
+    },
+    "Tetouan2024_6": {
+        "rawpath": "./photos/raw/maroc-hike-hole.jpg",
+        "year": 2024,
+        "order_in_year": 1,
+        "en": "Hiking near Tetouan with Sami, Tim, Me, and Flo",
+        "people": []
+    },
+    "Constance,2024_7": {
+        "rawpath": "./photos/raw/asilah-beach.jpg",
+        "year": 2024,
+        "order_in_year": 1,
+        "en": "On the beach near Asilah with Margaux, Me, Tim, Constance, Clemence, and Sami",
+        "people": []
+    },
+    "mother&rsquo;s2024_8": {
+        "rawpath": "./photos/raw/couscous.jpg",
+        "year": 2024,
+        "order_in_year": 1,
+        "en": "Eating Sami&rsquo;s mother&rsquo;s couscous with Alex, Me, Sami, and Tim",
+        "people": []
+    },
+    "Nempont-Saint-Firmin2024_9": {
+        "rawpath": "./photos/raw/sila-bday-balcony.jpg",
+        "year": 2024,
+        "order_in_year": 1,
+        "en": "Sila&rsquo;s 30th birthday in Nempont-Saint-Firmin",
+        "people": []
+    },
+    "Sila&rsquo;s2024_10": {
+        "rawpath": "./photos/raw/sila-bday-beach.jpg",
+        "year": 2024,
+        "order_in_year": 1,
+        "en": "Sila&rsquo;s 30th birthday in Berck",
+        "people": []
+    },
+    "Cassandra,2024_11": {
+        "rawpath": "./photos/raw/cassy-antoine-party.jpg",
+        "year": 2024,
+        "order_in_year": 1,
+        "en": "House party with Cassandra, Antoine, and Me",
+        "people": []
+    },
+    "year&rsquo;s2024_12": {
+        "rawpath": "./photos/raw/newyear2024.jpg",
+        "year": 2024,
+        "order_in_year": 1,
+        "en": "New year&rsquo;s with Grazilla, C\u00e9cile, Tyler, Sunny, and Me",
+        "people": []
+    },
+    "Sami&rsquo;s2023_13": {
+        "rawpath": "./photos/raw/roommates_sami.jpg",
+        "year": 2023,
+        "order_in_year": 1,
+        "en": "Sami&rsquo;s farewell party with all the roommates",
+        "people": []
+    },
+    "Citadelle2023_14": {
+        "rawpath": "./photos/raw/bryan-jason-citadelle.jpg",
+        "year": 2023,
+        "order_in_year": 1,
+        "en": "Me and Jason at La Citadelle de Lille",
+        "people": []
+    },
+    "Adam,2023_15": {
+        "rawpath": "./photos/raw/adam-bryan-jason-ghent.jpg",
+        "year": 2023,
+        "order_in_year": 1,
+        "en": "Adam, Me, and Jason on the edge of a canal in Ghent",
+        "people": []
+    },
+    "Piscine2023_16": {
+        "rawpath": "./photos/raw/bryan-piscine.jpg",
+        "year": 2023,
+        "order_in_year": 1,
+        "en": "Me at La Piscine",
+        "people": []
+    },
+    "Centenaire2023_17": {
+        "rawpath": "./photos/raw/bryan-julie-namur.jpg",
+        "year": 2023,
+        "order_in_year": 1,
+        "en": "Julie and Me at on Le Centenaire at Beez",
+        "people": []
+    },
+    "Thom&rsquo;s2023_18": {
+        "rawpath": "./photos/raw/alex-nadir-me-sachin-julien-morzine.jpg",
+        "year": 2023,
+        "order_in_year": 1,
+        "en": "Alex, Nadir, Me, Sachin, and Julien at Thom&rsquo;s wedding in Morzine",
+        "people": []
+    },
+    "Rishik&rsquo;s2023_19": {
+        "rawpath": "./photos/raw/eatin-rishik-chicken.jpg",
+        "year": 2023,
+        "order_in_year": 1,
+        "en": "Me eating Rishik&rsquo;s chicken for Indian Independence Day",
+        "people": []
+    },
+    "Quentin,2023_20": {
+        "rawpath": "./photos/raw/rishik-quentin-me-fete.jpg",
+        "year": 2023,
+        "order_in_year": 1,
+        "en": "Rishik, Quentin, and Me after a long night",
+        "people": []
+    },
+    "Michael2023_21": {
+        "rawpath": "./photos/raw/me-michael-st-charles.jpg",
+        "year": 2023,
+        "order_in_year": 1,
+        "en": "Me and Michael on St. Charles Bridge in Prague",
+        "people": []
+    },
+    "Thom&rsquo;s2023_22": {
+        "rawpath": "./photos/raw/sachin-me-edi-martijn.jpg",
+        "year": 2023,
+        "order_in_year": 1,
+        "en": "Sachin, Me, Edi, and Martijn at Thom&rsquo;s bachelor party in Paris",
+        "people": []
+    },
+    "Silvio,2023_23": {
+        "rawpath": "./photos/raw/me-silvio-tyler-colin-tok.jpg",
+        "year": 2023,
+        "order_in_year": 1,
+        "en": "Me, Silvio, Tyler, and Colin at Tok-ici (With Pierre on the Bass)",
+        "people": []
+    },
+    "Sarrazins2023_24": {
+        "rawpath": "./photos/raw/Silvio-rishik-me-colin-sarrazins.jpg",
+        "year": 2023,
+        "order_in_year": 1,
+        "en": "Silvio, Rishik, Me, and Colin at Place des Sarrazins",
+        "people": []
+    },
+    "Hypercourt2023_25": {
+        "rawpath": "./photos/raw/adri-moi-flo-sami-banana.jpg",
+        "year": 2023,
+        "order_in_year": 1,
+        "en": "Adri, Me, Flo, and Sami en route towards Hypercourt for Banana Boom",
+        "people": []
+    },
+    "Michael,2023_26": {
+        "rawpath": "./photos/raw/atomium.jpg",
+        "year": 2023,
+        "order_in_year": 1,
+        "en": "Me, Michael, and Tyler at the Atomium in Brussels",
+        "people": []
+    },
+    "Brussels2023_27": {
+        "rawpath": "./photos/raw/egouts.jpg",
+        "year": 2023,
+        "order_in_year": 1,
+        "en": "Me in the Sewers of Brussels",
+        "people": []
+    },
+    "courtyard2023_28": {
+        "rawpath": "./photos/raw/parents-lille.jpg",
+        "year": 2023,
+        "order_in_year": 1,
+        "en": "Me, my parents, Laura, Aubr\u00e9e, and Tyler in my courtyard",
+        "people": []
+    },
+    "Terribles</em>2023_29": {
+        "rawpath": "./photos/raw/aux-enfants-terribles.jpg",
+        "year": 2023,
+        "order_in_year": 1,
+        "en": "Aubr\u00e9e, Sunny, Me, and Tyler at <em>Aux Enfants Terribles</em>",
+        "people": []
+    },
+    "roommates2023_30": {
+        "rawpath": "./photos/raw/colocs-court.jpg",
+        "year": 2023,
+        "order_in_year": 1,
+        "en": "Me and my roommates in our courtyard",
+        "people": []
+    },
+    "restaurant2023_31": {
+        "rawpath": "./photos/raw/flo-anniv.jpg",
+        "year": 2023,
+        "order_in_year": 1,
+        "en": "Me, Flo, and Constance at a restaurant in Lille",
+        "people": []
+    },
+    "Pittsburgh2023_32": {
+        "rawpath": "./photos/raw/jason-alcohol.jpg",
+        "year": 2023,
+        "order_in_year": 1,
+        "en": "Me, Jason, and some others in Pittsburgh one night",
+        "people": []
+    },
+    "including2022_33": {
+        "rawpath": "./photos/raw/picnic_anton.jpeg",
+        "year": 2022,
+        "order_in_year": 1,
+        "en": "A bunch of people including Anton et a picnic in Paris",
+        "people": []
+    },
+    "Swap,2022_34": {
+        "rawpath": "./photos/raw/swap-hai-bryan-nice.jpg",
+        "year": 2022,
+        "order_in_year": 1,
+        "en": "Swap, Hai and me in Nice",
+        "people": []
+    },
+    "Michael,2021_35": {
+        "rawpath": "./photos/raw/bryan-michael-tyler-anvers.jpg",
+        "year": 2021,
+        "order_in_year": 1,
+        "en": "Me, Michael, and Tyler in Antwerp",
+        "people": []
+    },
+    "Perpetua,2021_36": {
+        "rawpath": "./photos/raw/bryan-colin_cape-perpetua.jpg",
+        "year": 2021,
+        "order_in_year": 1,
+        "en": "Me and Colin at Cape Perpetua, OR",
+        "people": []
+    },
+    "Dunkerque2021_37": {
+        "rawpath": "./photos/raw/michael-tyler-bryan-dunkerque.jpg",
+        "year": 2021,
+        "order_in_year": 1,
+        "en": "Michael, Tyler, and me in Dunkerque",
+        "people": []
+    },
+    "Dunkerque2021_38": {
+        "rawpath": "./photos/raw/michael-julie-bryan-tyler-dunkerque.jpg",
+        "year": 2021,
+        "order_in_year": 1,
+        "en": "Michael, Julie, me, and Tyler in Dunkerque",
+        "people": []
+    },
+    "Julien,2021_39": {
+        "rawpath": "./photos/raw/julien-bryan-nadir-yanomi-skate-blabla.jpg",
+        "year": 2021,
+        "order_in_year": 1,
+        "en": "Julien, Me, Nadir, and Yanomi at Blabla",
+        "people": []
+    },
+    "skateboard2021_40": {
+        "rawpath": "./photos/raw/bryan-blabla-skate.jpg",
+        "year": 2021,
+        "order_in_year": 1,
+        "en": "Just me on a skateboard at Blabla",
+        "people": []
+    },
+    "Bastille,2021_41": {
+        "rawpath": "./photos/raw/bryan-julie-etienne-cici-william-yanomi-grenoble.jpg",
+        "year": 2021,
+        "order_in_year": 1,
+        "en": "Half of me, Julie, Etienne, Cici, William, and Yanomi at Fort de la Bastille, Gr\u00e9noble",
+        "people": []
+    },
+    "Jeremy,2021_42": {
+        "rawpath": "./photos/raw/bryan-jeremy.png",
+        "year": 2021,
+        "order_in_year": 1,
+        "en": "Me, Jeremy, and Mathieu on French TV",
+        "people": []
+    },
+    "L&rsquo;\u00c9cart2020_43": {
+        "rawpath": "./photos/raw/michael-bryan-lecart.jpg",
+        "year": 2020,
+        "order_in_year": 1,
+        "en": "Me and Michael at L&rsquo;\u00c9cart",
+        "people": []
+    },
+    "Michael,2020_44": {
+        "rawpath": "./photos/raw/michael-bryan-julie.jpg",
+        "year": 2020,
+        "order_in_year": 1,
+        "en": "Michael, me, and Julie in Wazemmes",
+        "people": []
+    },
+    "Viaduc2020_45": {
+        "rawpath": "./photos/raw/alex-bryan-paris.jpg",
+        "year": 2020,
+        "order_in_year": 1,
+        "en": "Alex and Bryan at Le Viaduc",
+        "people": []
+    },
+    "William2020_46": {
+        "rawpath": "./photos/raw/Anton-william-bryan-la-seine.jpg",
+        "year": 2020,
+        "order_in_year": 1,
+        "en": "Anton, William and me at Jardin Tino Rossi",
+        "people": []
+    },
+    "Julie2020_47": {
+        "rawpath": "./photos/raw/bryan-julie-dune.jpg",
+        "year": 2020,
+        "order_in_year": 1,
+        "en": "Me and Julie at Dune du Pilat",
+        "people": []
+    },
+    "Ivry-sur-Seine2019_48": {
+        "rawpath": "./photos/raw/a-bunch-of-people-chez-moi-ivry.jpg",
+        "year": 2019,
+        "order_in_year": 1,
+        "en": "A bunch of people in Ivry-sur-Seine",
+        "people": []
+    },
+    "Edinburgh2019_49": {
+        "rawpath": "./photos/raw/michael-bryan-lorenzo-edinburgh.jpg",
+        "year": 2019,
+        "order_in_year": 1,
+        "en": "Michael, me, and Lorenzo in Edinburgh",
+        "people": []
+    },
+    "Chung2019_50": {
+        "rawpath": "./photos/raw/chunglab.jpg",
+        "year": 2019,
+        "order_in_year": 1,
+        "en": "Chung Lab",
+        "people": []
+    },
+    "Lorenzo,2018_51": {
+        "rawpath": "./photos/raw/tyler-lorenzo-remy-bryan-blabla2018.jpg",
+        "year": 2018,
+        "order_in_year": 1,
+        "en": "Tyler, me, Lorenzo, and R\u00e9my",
+        "people": []
+    },
+    "Patrick,2018_52": {
+        "rawpath": "./photos/raw/billpatbryan.jpg",
+        "year": 2018,
+        "order_in_year": 1,
+        "en": "Me, Patrick, and Bill",
+        "people": []
+    },
+    "mountain2017_53": {
+        "rawpath": "./photos/raw/me_and_bill_on_a_mountain_with_a_dog.jpg",
+        "year": 2017,
+        "order_in_year": 1,
+        "en": "Me and Bill and a dog on a mountain",
+        "people": []
     }
 }
