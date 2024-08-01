@@ -1,20 +1,11 @@
 import json
+import os
+import sys
+sys.path.append(os.path.abspath("../../"))
+from helper import *
+
 photo_blocks = []
 
-months = {
-'Jan': 0,
-'Feb': 1,
-'Mar': 2,
-'Apr': 3,
-'May': 4,
-'Jun': 5,
-'Jul': 6,
-'Aug': 7,
-'Sep': 8,
-'Oct': 9,
-'Nov': 10,
-'Dec': 11
-}
 # 2024.05
 def order_photos(x):
     if 'month' in x[1] and x[1]['month'] in months:

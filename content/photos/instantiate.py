@@ -1,74 +1,42 @@
-import re
-import os
 import json
+import datetime
+import os
 import sys
+sys.path.append(os.path.abspath("../../"))
+from helper import *
 
+count = 1
+with open("photos.json", "r+") as fw:
+    photos = json.load(fw)
+    for file in os.listdir("./new/"):
+        print(file)
+        name_words = [clean_key(w) for w in file.replace(".txt", "").split("_")]
+        longest_word = max(name_words, key=len)
+        name_guess = " ".join(name_words)
+        name_guess = name_guess[0].capitalize() + name_guess[1:]
+        year = datetime.datetime.now().year
+        if count == 1:
+            last_photo = max([(k,v) for k,v in photos.items() if v['year'] == year], key=v['order_in_year'])
+            if last_photo:
+                order_in_year = last_photo['order_in_year'] + 1
+                count = order_in_year 
 
-invalid_key_chars = [r"<", r">", ",", ".", r"&rsquo;", "'", "-"]
-
-with open('photos_old_en.html', 'r') as f_en:
-    with open('photos_old_fr.html', 'r') as f_fr:
-        with open('photos.json', 'r+') as fwrite:
-            photos = json.load(fwrite)
-            content = [p.replace("\n", "") for p in "".join(f_en.readlines()).split("\n\n")]
-            content_fr = [p.replace("\n", "") for p in "".join(f_fr.readlines()).split("\n\n")]
-            print(len(content))
-            print(len(content_fr))
-            count = 0
-            current_year = None
-            for i,photo_elem in list(enumerate(content))[::-1]:
-                m = re.search(r'<img src="/images/(.*?)">', photo_elem)
-                m_fr = re.search(r'<img src="/images/(.*?)">', content_fr[i])
-                f_en = m.group(1)
-                f_fr = m_fr.group(1)
-                
-                if f_en != f_fr:
-                    print("{0} != {1}".format(f_en,f_fr))
-
-                oldpath = "../../static/" + m.group(1)
-                rawpath = "./photos/raw/" + m.group(1)
-                m_en = re.search(r'<figcaption>(.*)</figcaption>', photo_elem)
-                m_fr = re.search(r'<figcaption>(.*)</figcaption>', content_fr[i])
-                en,year_str = m_en.group(1).split(' ~ ')
-                fr,_ = m_fr.group(1).split(' ~ ')
-                year = int(year_str.strip())
-                if year == current_year:
-                    count += 1
-                else:
-                    current_year = year
-                    count = 1
-                desc_words = []
-                for w in en.split(" "):
-                    for c in invalid_key_chars:
-                        w = w.replace(c,"")
-                    desc_words.append(w)
-                longest_word = max(desc_words, key=len)
-                d = {
-                    "rawpath": rawpath,
-                    "year": year,
-                    "order_in_year": count,
-                    "en": en,
-                    "fr": fr,
-                    "people": [],
-                    }
-                # update element instead of overwriting if possible
-                elem = [k for k,v in photos.items() if v['rawpath'] == d['rawpath']]
-                if any(elem):
-                    key = elem[0]
-                    photos[key]['year'] = d['year']
-                    photos[key]['order_in_year'] = d['order_in_year']
-                    photos[key]['en'] = d['en']
-                    photos[key]['fr'] = d['fr']
-                else:
-                    key = longest_word + "_" + year_str + "_" + str(count)
-                    photos[key] = d
-                if os.path.isfile(oldpath):
-                    print("`mv {0} {1}`".format(oldpath, "." + rawpath))
-                    os.rename(oldpath, "." + rawpath)
-            
-            fwrite.seek(0)
-            json.dump(photos, fwrite, indent=4)
-            fwrite.truncate()
-
-        
+        d = {
+            "rawpath": "./photos/raw/" + file,
+            "month": str(datetime.datetime.now().strftime("%B"))[:3],
+            "year": datetime.datetime.now().year,
+            "order_in_year": count,
+            "en": "",
+            "fr": "",
+            "people": ["bryan"],
+            }
+        nickname = longest_word + '_' + str(count) if longest_word in photos.keys() else longest_word
     
+        photos[nickname] = d
+        count += 1
+        
+        os.rename("./new/" + file, "./raw/" + file)
+
+    fw.seek(0)
+    json.dump(photos, fw, indent=4)
+    fw.truncate()
