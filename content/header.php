@@ -89,10 +89,3 @@ $language_toggle = array(
 </ul>
 
 </nav>
-
-
-<main class="main layout__main">
-<article class="single-view">
-<div class="content">
-</body>
-</html>
