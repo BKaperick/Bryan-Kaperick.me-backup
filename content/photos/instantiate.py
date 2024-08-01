@@ -1,6 +1,8 @@
 import re
 import os
 import json
+import sys
+
 with open('photos_old_en.html', 'r') as f_en:
     with open('photos_old_fr.html', 'r') as f_fr:
         with open('photos.json', 'r+') as fwrite:
@@ -11,11 +13,9 @@ with open('photos_old_en.html', 'r') as f_en:
             print(len(content_fr))
             count = 0
             current_year = None
-            for i,photo_elem in list(enumerate(content)):
+            for i,photo_elem in list(enumerate(content))[::-1]:
                 m = re.search(r'<img src="/images/(.*?)">', photo_elem)
                 m_fr = re.search(r'<img src="/images/(.*?)">', content_fr[i])
-                print(photo_elem)
-                print(content_fr[i])
                 f_en = m.group(1)
                 f_fr = m_fr.group(1)
                 
@@ -48,8 +48,7 @@ with open('photos_old_en.html', 'r') as f_en:
                 key = longest_word + "_" + year_str + "_" + str(count)
                 photos[key] = d
                 #print("`mv {0} {1}`".format(oldpath, "." + rawpath))
-                #os.rename(oldpath, "." + rawpath)
-                print("\n\n")
+                os.rename(oldpath, "." + rawpath)
             
             fwrite.seek(0)
             json.dump(photos, fwrite, indent=4)
