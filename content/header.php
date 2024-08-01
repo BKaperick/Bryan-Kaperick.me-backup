@@ -14,7 +14,6 @@ $language_toggle = array(
 <meta name="viewport" content="width=device-width">
 <head>
 <link rel="alternate" type="application/rss+xml" title="RSS" href="https://bryan-kaperick.me/en/index.xml">
-<meta name="description" content="  Daily data point In Slovakia in 2005, the deaths from cardiovascular diseases per 100,000 people in, males aged over 85 years (Cardiovascular diseases has the following …">
 <meta name="created" content="2021-10-24T18:44:04+0200">
 <meta name="modified" content="2023-07-30T15:34:43+0200">
 
@@ -29,7 +28,9 @@ $language_toggle = array(
 <link rel="canonical" href="https://bryan-kaperick.me/en/">
 
 <link rel="alternate" hreflang="fr" href="content/fr/mainpage.html">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico">
+<link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+<link rel="apple-touch-icon" href="/static/favicon.ico">
 
 
 
