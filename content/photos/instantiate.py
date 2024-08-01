@@ -13,8 +13,9 @@ with open('photos_old_en.html', 'r') as f_en:
             current_year = None
             for i,photo_elem in list(enumerate(content)):
                 m = re.search(r'<img src="/images/(.*?)">', photo_elem)
-                m_fr = re.search(r'<img src="/images/static/(.*?)">', content_fr[i])
+                m_fr = re.search(r'<img src="/images/(.*?)">', content_fr[i])
                 print(photo_elem)
+                print(content_fr[i])
                 f_en = m.group(1)
                 f_fr = m_fr.group(1)
                 
@@ -46,8 +47,9 @@ with open('photos_old_en.html', 'r') as f_en:
                     }
                 key = longest_word + "_" + year_str + "_" + str(count)
                 photos[key] = d
-                print("`mv {0} {1}`".format(oldpath, "." + rawpath))
+                #print("`mv {0} {1}`".format(oldpath, "." + rawpath))
                 #os.rename(oldpath, "." + rawpath)
+                print("\n\n")
             
             fwrite.seek(0)
             json.dump(photos, fwrite, indent=4)
